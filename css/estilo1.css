@@ -1,0 +1,124 @@
+
+*{
+	padding: 0px;
+}
+
+body{
+	
+	margin: 0px;
+	background-image: url("../imagenes/paisaje.jpg");
+
+}
+header{
+	background-color: #0066FF ;
+	width: 500%;
+	height: 120px;
+	border-bottom: 15px solid #434343;
+	margin: auto;
+}
+ul,ol{
+	list-style: none;
+}
+.nav li a{
+	background-color: rgb(223, 223, 223);
+	color: #0066CC;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: inline-block;
+}
+.nav>li{
+	float: left;
+}
+.nav li a:hover{
+	background-color: #434343;
+}
+.nav li ol {
+	display: none;
+	position: absolute;
+	min-width: 100px;
+}
+.nav li:hover>ol{
+	display: block;
+
+	
+}
+nav{
+	margin-left: 400px;
+	padding-bottom: 93px;
+
+}
+li{
+	font-size: 22px;
+	box-shadow: 5px 5px 15px;
+	-webkit-border-radius:15px 15px;
+}
+
+/*nav,ul{
+	display:inline-block;
+	margin:0px;
+	padding-left: 140px;
+	list-style: none;
+	text-decoration: none;
+
+}
+
+/*li{
+	display: inline-block;
+	max-height: 100px;
+	font-size: 20px;
+	background-color:rgb(58, 58, 204);
+	border-radius: 9px 9px 9px 9px;
+	padding: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	font-family: arial;
+
+}*/
+
+li:hover{
+	background-color: rgb(153, 149, 149);
+
+ 	
+}
+
+h1 ,img{
+	margin: 0;
+	margin-left: 15px;
+	padding: 5px;
+	height: 80px;
+	
+}
+section{
+	width: 80%;
+	height: 600px;
+	margin:auto;
+	padding: 15px;
+	background-color:rgb(223, 223, 223);
+	-webkit-border-radius:15px 15px;
+}
+section p{
+	margin:0px;
+
+}
+footer{
+	background-color: #434343;
+	width: 98%;
+	padding: 15px;
+	
+}
+footer p {
+	
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+footer a {
+	color: #6600FF	;
+}
+
+a:hover{
+	color: white;
+}
+iframe{
+	box-shadow: 5px 5px 15px;
+}
